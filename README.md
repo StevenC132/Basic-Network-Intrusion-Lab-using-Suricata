@@ -10,7 +10,7 @@ This project is a hands-on lab designed to demonstrate how to set up a basic net
 
 ## Lab Setup
 ### Step 1: Create Virtual Machines
-1. Set up an Ubuntu VM for Suricata, Firewall/NAT/DHCP and a Kali Linux VM for testing. 
+1. Set up an Ubuntu VM for Suricata, Firewall/NAT/DHCP and a Kali Linux VM for testing. (I did plan on using a Windows VM as well but decided to hold off until I am ready to do more work with this project that is why in the third photo you see a Desktop when I checked the status of the DHCP server) 
 2. Configure network settings (e.g., bridged or NAT mode). The Unbuntu VM had a NAT connection as well as a internal network connection, and the Kali VM had just the internal network connection.
 - After setting up the VMs I went and added a few firewall rules to the iptables. Thes first rule enables IP masquerading for packets leaving the system through eth0
   ```bash
